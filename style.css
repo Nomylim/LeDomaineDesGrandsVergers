@@ -1,0 +1,123 @@
+header {
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 0 20px;
+  height: 100px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#fond_img {
+  margin: 0 20px 0px 20px;
+  height: 500px;
+  background: url("Export/Velogny-22-5.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: xx-large;
+}
+
+#fond_img button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  font-size: larger;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.imageg {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imageg p {
+  width: 400px;
+}
+
+#imgicone {
+  height: 300px;
+  width: 400px;
+  /*border: 2px solid;*/
+  border-radius: 5px;
+}
+
+.imaged {
+  margin: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+hr {
+  width: "50%";
+  color: "black";
+  size: "20px";
+}
+
+#caroussel {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#carouselExampleIndicators {
+  width: 50%;
+  margin: auto;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+hr {
+  size: 100px;
+  color: black;
+  width: 50%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.pied {
+  text-align: center;
+  width: 33%;
+}
