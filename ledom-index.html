@@ -1,65 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <title>Le domaine des grands vergers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Manjari:wght@100;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>Le domaine des grands vergers</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Manjari:wght@100;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <nav>
-      <h1>Le domaine des grands vergers</h1>
-      <div class="btn-dropstart">
-        <button type="button" class="btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="menu.svg" alt="icone menu">
-        </button>
-        <ul class="dropdown-menu">
-          <a href="">
-            <h4>Accueil</h4>
-          </a>
-          <a href="">
-            <h4>L'atelier des grands vergers</h4>
-          </a>
-          <a href="">
-            <h4>Les Pommiers</h4>
-          </a>
-          <a href="">
-            <h4>Les pêchers</h4>
-          </a>
-          <a href="">
-            <h4>Les cerisiers</h4>
-          </a>
-          <a href="">
-            <h4>Tarifs et réservations</h4>
-          </a>
-        </ul>
+  <body>
+    <header>
+      <nav>
+        <h1>Le domaine des grands vergers</h1>
+        <div class="btn-dropstart">
+          <button
+            type="button"
+            class="btn-secondary"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img src="menu.svg" alt="icone menu" />
+          </button>
+          <ul class="dropdown-menu">
+            <a href="ledom-index.html">
+              <h4>Accueil</h4>
+            </a>
+            <a href="L'atelier/l'atelier.html">
+              <h4>L'atelier des grands vergers</h4>
+            </a>
+            <a href="Les Pommiers/pommiers.html">
+              <h4>Les Pommiers</h4>
+            </a>
+            <a href="Les Pechers/pechers.html">
+              <h4>Les pêchers</h4>
+            </a>
+            <a href="Les cerisiers/cerisiers.html">
+              <h4>Les cerisiers</h4>
+            </a>
+            <a href="Tarifs/tarifs.html">
+              <h4>Tarifs et réservations</h4>
+            </a>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul>
+            <a href="ledom-index.html">
+              <h4>Accueil</h4>
+            </a>
+            <a href="L'atelier/l'atelier.html">
+              <h4>L'atelier des grands vergers</h4>
+            </a>
+            <a href="Les Pommiers/pommiers.html">
+              <h4>Les Pommiers</h4>
+            </a>
+            <a href="Les Pechers/pechers.html">
+              <h4>Les pêchers</h4>
+            </a>
+            <a href="Les cerisiers/cerisiers.html">
+              <h4>Les cerisiers</h4>
+            </a>
+            <a href="Tarifs/tarifs.html">
+              <h4>Tarifs et réservations</h4>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <div class="presentation">
+        <h1>
+          Domaine des grands vergers <br />
+          Réception et décontraction
+        </h1>
+        <button><a href="">Réserver</a></button>
       </div>
-    </nav>
-    <div class="presentation"> 
-      <h1>
-        Domaine des grands vergers <br />
-        Réception et décontraction
-      </h1>
-      <button><a href="">Réserver</a></button>
-    </div>
-  </header>
+    </header>
 
-  <main>
+    <main>
       <div class="atelier">
         <h2>L'atelier des grands vergers</h2>
         <img id="imgicone" src="Export/Velogny-22-11.jpg" />
@@ -73,12 +107,12 @@
       </div>
 
       <div class="pommiers">
-      <h2>Les Pommiers</h2>
+        <h2>Les Pommiers</h2>
         <img id="imgicone" src="Export/Velogny-22-7.jpg" />
         <p>Gite indépendant. De 1 à 4 chambres. De 1 à 14 personnes.</p>
         <button><a href="">Découvrir</a></button>
       </div>
-      
+
       <div class="pechers">
         <h2>Les pêchers</h2>
         <img id="imgicone" src="Export/Velogny-22-29.jpg" />
@@ -90,71 +124,104 @@
         <img id="imgicone" src="Export/Velogny-22-31.jpg" />
         <p>Gite indépendant. De 1 à 3 chambres. De 1 à 8 personnes.</p>
       </div>
-  
-    <section class="carousel">
-      <h2>Le village de Velogny</h2>
-      <p>
-        Petit village au cœur de l'Auxois, il vous ravira par son calme et sa
-        tranquillité.
-      </p>
-      <div id="carouselIndicators" class="carousel-slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Export/Velogny-22-30.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="Export/Velogny-22-32.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="Export/Velogny-22-33.jpg" class="d-block w-100" alt="..." />
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-  </main> 
-  <footer>
-    <h3 class="h31">A propos de nous</h3>
-    <div class="pied1">
-      <p>
-        Annie et Armel vous accueilleront pour votre plus grand plaisir toute
-        l'année, par beau et mauvais temps.
-      </p>
-    </div>
-    <h3 class="h32">Contactez-nous</h3>
-    <div class="pied2">
-      <p>
-        limbasse@orange.fr <br />
-        +33 6 83 46 48 73 <br />
-        +33 3 80 64 60 28
-      </p>
-    </div>
-    <h3 class="h33">Rendez-nous visite</h3>
-    <div class="pied3">
-      <p>
-        6 rue Amont <br />
-        21350 Velogny <br />
-        <a href=""> Itinéraire et plans</a>
-      </p>
-    </div>
-  </footer> 
-</body>
 
+      <section class="carousel">
+        <h2>Le village de Velogny</h2>
+        <p>
+          Petit village au cœur de l'Auxois, il vous ravira par son calme et sa
+          tranquillité.
+        </p>
+        <div id="carouselIndicators" class="carousel-slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="Export/Velogny-22-30.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Export/Velogny-22-32.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Export/Velogny-22-33.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h3 class="h31">A propos de nous</h3>
+      <div class="pied1">
+        <p>
+          Annie et Armel vous accueilleront pour votre plus grand plaisir toute
+          l'année, par beau et mauvais temps.
+        </p>
+      </div>
+      <h3 class="h32">Contactez-nous</h3>
+      <div class="pied2">
+        <p>
+          limbasse@orange.fr <br />
+          +33 6 83 46 48 73 <br />
+          +33 3 80 64 60 28
+        </p>
+      </div>
+      <h3 class="h33">Rendez-nous visite</h3>
+      <div class="pied3">
+        <p>
+          6 rue Amont <br />
+          21350 Velogny <br />
+          <a href=""> Itinéraire et plans</a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
