@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "Kufam", sans-serif;
   display: flex;
@@ -33,6 +34,7 @@ nav h1 {
   font-size: 16px;
   font-weight: 100;
 }
+
 nav img {
   width: 2rem;
 }
@@ -40,11 +42,18 @@ nav img {
 .btn-secondary {
   border: none;
   background-color: #6a645a;
+  
 }
+
 .dropdown-menu {
   background-color: #5d7052;
   padding: 8px;
 }
+
+.btn-dropstart{
+  margin-left: 6%;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -53,6 +62,7 @@ a {
 .menu {
   display: none;
 }
+
 nav h4 {
   font-size: 16px;
 }
@@ -70,6 +80,7 @@ nav h4 {
   margin-top: 20px;
   font-size: 20px;
 }
+
 main button,
 .presentation button {
   background-color: #c18845;
@@ -193,39 +204,118 @@ footer h3 {
   display: flex;
   flex-flow: row wrap;
 }
+
 .pied2 {
   grid-area: 2/2/3/3;
 }
+
 .pied3 {
   grid-area: 2/3/3/4;
 }
+
 .pied1 p {
   text-align: justify;
   padding: 0 5px 0 5px;
 }
 
 @media all and (min-width: 375px) {
-  nav {
-    justify-content: flex-start;
+
+  main{
+    margin-left: 20%;
+    margin-right: 20%;
   }
+  header{
+    background-color: white;
+  }
+
+ .presentation{
+  align-self: stretch;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-image: url(Export/Velogny-22-4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+
+ }
+
   .btn-dropstart {
     display: none;
   }
-  .menu {
-    align-self: flex-end;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 5px;
+  nav{
+    
   }
+  nav h1{
+    flex: 0 1 auto;
+  }
+
+  .menu {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
   .menu ul {
-    align-self: stretch;
     text-decoration: none;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
+    padding-right: 20px;
   }
+
+  ul a{
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+  }
+  #imgicone {
+    max-width: 300px;
+  }
+
+.atelier, .pechers{
+  align-self: stretch;
+  background-color : #E3CD8B;
+  margin: 0;
+  padding: 20px 10px 20px 10px;
+}
+
+  .desk {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .desk p, .deskright p{
+    margin-left:5% ;
+    margin-right: 5%;
+  }
+
+  .deskright{
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+
+  }
+
+  .atelier button, .pommiers button, .presentation button{
+    width: 15%;
+  }
+
+  .pommiers, .cerisiers{
+    align-self: stretch;
+  }
+
+  .pied1 p {
+    padding: 0 30px 0 30px ;
+  }
+
+
+
+
 }

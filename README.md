@@ -1,4 +1,4 @@
-# Chartre de couleur
+# Charte de couleur
 
 Primary : #5D7052
 Secondary : #C18845
