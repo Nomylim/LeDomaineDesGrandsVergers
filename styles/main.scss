@@ -1,5 +1,17 @@
-@import 'custom';
+@import '_custom';
 
-html {
-    background-color: red;
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+main{
+    margin-bottom: 200px;
+}
+
+footer.footer {
+    padding: 15px;
+    position: absolute;
+    bottom :0;
+    width: 100%;
 }

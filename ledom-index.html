@@ -14,92 +14,67 @@
 
 <body>
   <header>
-    <nav>
-      <h1>Le domaine des grands vergers</h1>
-      <div class="btn-dropstart">
-        <button type="button" class="btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="menu.svg" alt="icone menu" />
+    <nav class="navbar navbar-expend-lg bg-dark text-white" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Le domaine des grands vergers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="dropdown-menu">
-          <a href="ledom-index.html">
-            <h4>Accueil</h4>
-          </a>
-          <a src="L'atelier/l'atelier.html">
-            <h4>L'atelier des grands vergers</h4>
-          </a>
-          <a href="Les Pommiers/pommiers.html">
-            <h4>Les Pommiers</h4>
-          </a>
-          <a href="Les Pechers/pechers.html">
-            <h4>Les pêchers</h4>
-          </a>
-          <a href="Les cerisiers/cerisiers.html">
-            <h4>Les cerisiers</h4>
-          </a>
-          <a href="Tarifs/tarifs.html">
-            <h4>Tarifs et réservations</h4>
-          </a>
-        </ul>
-      </div>
-      <div class="menu">
-        <ul>
-          <a href="ledom-index.html">
-            <h4>Accueil</h4>
-          </a>
-          <a href="L'atelier/l'atelier.html">
-            <h4>L'atelier des grands vergers</h4>
-          </a>
-          <a href="Les Pommiers/pommiers.html">
-            <h4>Les Pommiers</h4>
-          </a>
-          <a href="Les Pechers/pechers.html">
-            <h4>Les pêchers</h4>
-          </a>
-          <a href="Les cerisiers/cerisiers.html">
-            <h4>Les cerisiers</h4>
-          </a>
-          <a href="Tarifs/tarifs.html">
-            <h4>Tarifs et réservations</h4>
-          </a>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/l'atelier">L'atelier des grands vergers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pommiers">Les Pommiers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pechers">Les Pechers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cerisiers">Les cerisiers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/tarifs">Tarifs et réservations</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="presentation">
-      <h1>
-        Domaine des grands vergers <br />
-        Réception et décontraction
-      </h1>
-      <button><a href="Tarifs/tarifs.html">Réserver</a></button>
-    </div>
   </header>
 
   <main id="main-page">
     <!-- Le contenu de la page sera intégré ici -->
   </main>
 
-  <footer>
-    <h3 class="h31">A propos de nous</h3>
-    <div class="pied1">
-      <p>
-        Annie et Armel vous accueilleront pour votre plus grand plaisir toute
-        l'année, par beau et mauvais temps.
-      </p>
-    </div>
-    <h3 class="h32">Contactez-nous</h3>
-    <div class="pied2">
-      <p>
-        limbasse@orange.fr <br />
-        +33 6 83 46 48 73 <br />
-        +33 3 80 64 60 28
-      </p>
-    </div>
-    <h3 class="h33">Rendez-nous visite</h3>
-    <div class="pied3">
+  <footer class="bg-dark text-white text-center footer">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <h3 class="text-light">A propos de nous</h3>
+        <p>
+          Annie et Armel vous accueilleront pour votre plus grand plaisir toute
+          l'année, par beau et mauvais temps.
+        </p>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h3 class="text-light">Contactez-nous</h3>
+        <p>
+          limbasse@orange.fr <br />
+          +33 6 83 46 48 73 <br />
+          +33 3 80 64 60 28
+        </p>
+      </div>
+      <div class="col-6 col-lg-4">
+        <h3 class="text-light">Rendez-nous visite</h3>
       <p>
         6 rue Amont <br />
         21350 Velogny <br />
         <a href=""> Itinéraire et plans</a>
       </p>
+      </div>
     </div>
   </footer>
 

@@ -3,6 +3,19 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+$primary: #5D7052;
+$secondary: #C18845;
+$dark: #6A645A;
+$light: #E3CD8B;
+$pink: #FDBE86;
+
+$font-familly-title : "Kufam", sans-serif !default;
+$font-family-sans-serif : "Manjari", sans-serif !default;
+
+$carousel-control-color : black;
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
