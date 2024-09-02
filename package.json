@@ -1,0 +1,16 @@
+{
+  "name": "le-domaine",
+  "version": "1.0.0",
+  "description": "Primary : #5D7052\r Secondary : #C18845\r Brown : #6A645A\r Yellow : #E3CD8B\r Pink : #FDBE86",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
