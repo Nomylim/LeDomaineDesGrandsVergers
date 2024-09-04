@@ -3,11 +3,11 @@ import Route from "./Route.js";
 //Définir ici les routes
 export const allRoutes = [
     new Route("/", "Acceuil", "/pages/home.html"),
-    new Route("/", "l'atelier", "/pages/l'atelier.html"),
-    new Route("/", "pommier", "/pages/pommier.html"),
-    new Route("/", "cerisiers", "/pages/cerisiers.html"),
-    new Route("/", "pechers", "/pages/pechers.html"),
-    new Route("/", "tarifs", "/pages/tarifs.html"),
+    new Route("/l'atelier", "l'atelier", "/pages/l'atelier.html"),
+    new Route("/pommiers", "pommiers", "/pages/pommiers.html"),
+    new Route("/cerisiers", "cerisiers", "/pages/cerisiers.html"),
+    new Route("/pechers", "pechers", "/pages/pechers.html"),
+    new Route("/tarifs", "tarifs", "/pages/tarifs.html"),
 
 ];
 
