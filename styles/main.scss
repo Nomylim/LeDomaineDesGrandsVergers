@@ -1,4 +1,4 @@
-@import '_custom';
+@import 'custom';
 
 html{
     position: relative;
@@ -6,7 +6,7 @@ html{
 }
 
 main{
-    margin-bottom: 200px;
+    margin-bottom: 350px;
 }
 
 footer.footer {
@@ -26,10 +26,10 @@ footer.footer {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url(../Export/Velogny-22-1.jpg);
+        background-image: url(../Export/Velogny-22-4.jpg);
         background-size: cover;
-        filter: brightness(0.5);
-
+        filter: brightness(0.8);
+        max-height: 500px;
     }
 
     * {
@@ -44,4 +44,12 @@ footer.footer {
         justify-content: center;
         color: white;
     }
+    a{
+        color: white;
+    }
 }
+
+.text-justify {
+    text-align: justify;
+}
+

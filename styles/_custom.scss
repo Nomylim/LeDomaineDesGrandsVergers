@@ -7,12 +7,13 @@ $primary: #5D7052;
 $secondary: #C18845;
 $dark: #6A645A;
 $light: #E3CD8B;
-$pink: #FDBE86;
+$info: #FDBE86;
 
 $font-familly-title : "Kufam", sans-serif !default;
 $font-family-sans-serif : "Manjari", sans-serif !default;
 
-$carousel-control-color : black;
+$carousel-control-color : white;
+$carousel-control-opacity: 1;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
