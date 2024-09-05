@@ -12013,4 +12013,38 @@ footer.footer {
 
 .text-justify {
   text-align: justify;
+}
+
+.image-grid {
+  display: flex;
+  gap: 10px;
+  max-width: 1000px;
+  align-items: center;
+}
+
+.large-image {
+  flex: 2;
+}
+
+.large-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2px;
+}
+
+.small-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.small-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2px;
 }/*# sourceMappingURL=main.css.map */
