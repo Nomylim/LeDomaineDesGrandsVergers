@@ -11983,6 +11983,7 @@ footer.footer {
 
 .hero-scene {
   position: relative;
+  height: 38vh;
 }
 .hero-scene::before {
   content: "";
@@ -11992,6 +11993,7 @@ footer.footer {
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-position: center;
   filter: brightness(0.8);
   max-height: 500px;
 }
@@ -12094,5 +12096,8 @@ h2, .h2 {
 @media only screen and (min-width: 720px) {
   main {
     margin-bottom: 200px;
+  }
+  p {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
