@@ -132,3 +132,16 @@ p{
 h2{
     margin: 0;
 }
+
+.gridimage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 720px){
+    main{
+        margin-bottom: 200px;
+    }
+    
+}
