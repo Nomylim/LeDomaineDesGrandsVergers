@@ -71,7 +71,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Manjari", sans-serif;
+  --bs-font-sans-serif: "Suse", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -11971,7 +11971,7 @@ html {
 }
 
 main {
-  margin-bottom: 350px;
+  margin-bottom: 300px;
 }
 
 footer.footer {
@@ -11991,7 +11991,6 @@ footer.footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../Export/Velogny-22-4.jpg);
   background-size: cover;
   filter: brightness(0.8);
   max-height: 500px;
@@ -12009,6 +12008,30 @@ footer.footer {
 }
 .hero-scene a {
   color: white;
+}
+
+.home::before {
+  background-image: url(../Export/Velogny-22-4.jpg);
+}
+
+.atelier::before {
+  background-image: url(../Export/Velogny-22-10.jpg);
+}
+
+.pommiers::before {
+  background-image: url(../Export/Velogny-22-7.jpg);
+}
+
+.tarifs::before {
+  background-image: url(../Export/Velogny-22-30.jpg);
+}
+
+.pechers::before {
+  background-image: url(../Export/Velogny-22-29.jpg);
+}
+
+.cerisiers::before {
+  background-image: url(../Export/Velogny-22-31.jpg);
 }
 
 .text-justify {
@@ -12047,4 +12070,17 @@ footer.footer {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 2px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: "Kufam", sans-serif;
+}
+
+p {
+  font-family: "Suse", sans-serif;
+  line-height: normal;
+}
+
+h2, .h2 {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
