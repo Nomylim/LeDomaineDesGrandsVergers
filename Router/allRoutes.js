@@ -8,6 +8,7 @@ export const allRoutes = [
     new Route("/tarifs", "Les Tarifs", "/pages/tarifs.html"),
     new Route("/pechers", "Les Pêchers", "/pages/pechers.html"),
     new Route("/cerisiers", "Les Cerisiers", "/pages/cerisiers.html"),
+    new Route("/contact", "Contact", "/pages/contact.html","js/contact.js"),
 
 ];
 
